@@ -31,7 +31,7 @@ Es wird eine initiale Einrichtung durchgeführt. Diese wird durch Eingabe des Lo
 ### Authentifizierung gegenüber dem System (Webseite, App)
 Bei einem Loginversuch sind Loginname, Masterkey und Keyfile anzugeben. Sind es die richtigen, kann die hinterlegte Challenge vom System entschlüsselt und dem Nutzer angezeigt werden. Der Nutzer gibt nun die Antwort ein und das System prüft diese entweder gegen eine bei der Registrierung hinterlegten Antwort oder gegen das Ergebnis eines Prüfverfahrens z.B. Addition. 
 ### Passwortwechsel 
-Der Nutzer erhöht den Zähler
+Der Nutzer erhöht den Zähler. Die Anwendung muss einen Prozess bereitstellen, damit die Ablage umverschlüsselt werden kann. 
 ### Passwortwiederherstellen
 ? -> ist das überhaupt noch notwendig?
 ### Masterkeywechsel
