@@ -14,7 +14,7 @@ Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Open Source
 * Schutz vor Ableiten des Masterpasswortes oder anderer abgeleiteter Passwörter, wird gewährleistet durch Nutzung kryptographischer Funktionen wie PBKDF2.
 
 ## Bekannte Schwachstellen
-* Das Masterpasswort muss über einen sicheren Kanal in die Anwendung eingegeben werden. Im Web wäre das also TLS/HTTPS, auf dem lokalen Gerät werden Eingabeverfahren benötigt, die gegen Keylogger wirken. 
+* Das Masterpasswort muss über einen sicheren Kanal in die Anwendung eingegeben werden. Im Web wäre das also TLS/HTTPS, auf dem lokalen Gerät werden Eingabeverfahren benötigt, die gegen Keylogger wirken z.B. Bildschirmtastatur mit zufälliger Anordnung gern auch kombiniert über mehrere Ebenen umschaltbar. Es spricht nix dagegen dies auch online zu nutzen. 
 
 ## Allgemeine Erläuterungen zum Konzept
 Das Konzept beschreibt den Aufbau eines Zugangskontrollmoduls wie es in Web-, Desktop- oder Mobilanwendungen eingesetzt werden kann.  
