@@ -33,7 +33,7 @@ Bei einem Loginversuch sind Loginname, Masterkey und Keyfile anzugeben. Sind es 
 ### Passwortwechsel 
 Der Nutzer erhöht den Zähler. Die Anwendung muss einen Prozess bereitstellen, damit die Ablage umverschlüsselt werden kann. 
 ### Passwortwiederherstellen
-? -> ist das überhaupt noch notwendig?
+Nicht mehr notwendig. Ähnlich den Bitcoin Verfahren. Verlust des Masterkey und/oder des Keyfiles bedeutet Verlust aller zugehöriger Zugänge. Als Variante wäre ein Seed statt einem Masterkey denkbar. 
 ### Masterkeywechsel
 Entspricht dem Passwortwechsel. Die Anwendung muss einen Prozess bereitstellen, damit die Ablage umverschlüsselt werden kann. 
 
