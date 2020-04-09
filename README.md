@@ -35,7 +35,7 @@ Der Nutzer erhöht den Zähler. Die Anwendung muss einen Prozess bereitstellen, 
 ### Passwortwiederherstellen
 ? -> ist das überhaupt noch notwendig?
 ### Masterkeywechsel
-? -> vermutlich viel Aufwand für die Anwendungslogik
+Entspricht dem Passwortwechsel. Die Anwendung muss einen Prozess bereitstellen, damit die Ablage umverschlüsselt werden kann. 
 
 
 ## Quellen im Netz
