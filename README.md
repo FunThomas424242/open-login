@@ -20,7 +20,7 @@ Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Open Source
 Das Konzept beschreibt den Aufbau eines Zugangskontrollmoduls wie es in Web-, Desktop- oder Mobilanwendungen eingesetzt werden kann.  
 
 ## Schematische Darstellung des Zugangsmoduls
-
+![Schematische Darstellung des Zugangskontrollmoduls als SVG](img/Zugangskontrollmodul.svg "Zugangskontrollmodul (schematisch)")
 
 ## Quellen im Netz
 
