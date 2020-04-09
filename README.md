@@ -16,6 +16,9 @@ Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Open Source
 ## Bekannte Schwachstellen
 * Das Masterpasswort muss über einen sicheren Kanal in die Anwendung eingegeben werden. Im Web wäre das also TLS/HTTPS, auf dem lokalen Gerät werden Eingabeverfahren benötigt, die gegen Keylogger wirken z.B. Bildschirmtastatur mit zufälliger Anordnung gern auch kombiniert über mehrere Ebenen umschaltbar. Es spricht nix dagegen dies auch online zu nutzen. 
 
+## Unbekannte Schwachstellen
+* Es ist mir aktuell nicht klar ob die Generierung eines public/secret Key Paares aus einem Masterkey nicht einen Angriffspunkt darstellt. Insofern, dass das Knacken der Verschlüsselung der Ablage erleichtert wird. Sollte dies so sein, muss eben die Keylänge erhöht werden und ein symetrischen Verfahren zum Einsatz kommen. 
+
 ## Allgemeine Erläuterungen zum Konzept
 Das Konzept beschreibt den Aufbau eines Zugangskontrollmoduls wie es in Web-, Desktop- oder Mobilanwendungen eingesetzt werden kann.  
 
