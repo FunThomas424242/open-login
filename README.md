@@ -1,6 +1,8 @@
 # open-login
 Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Anwendungen die FIDO2 nicht nutzen können (z.B. Managed Infrastruktur in Behörden).
 
+Realisierung soll über die Referenzimplementierung [jlogin](https://github.com/FunThomas424242/jlogin) erfolgen.
+
 ## Ziele des Konzeptes
 * Bequeme Nutzung sicherer Passwörter durch Endnutzer 
 * Schutz vor Ausspähen der Nutzerdaten (nicht der Passwörter)
