@@ -20,7 +20,8 @@ Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Open Source
 * Es ist mir aktuell nicht klar ob die Generierung eines public/secret Key Paares aus einem Masterkey nicht einen Angriffspunkt darstellt. Insofern, dass das Knacken der Verschlüsselung der Ablage erleichtert wird. Sollte dies so sein, muss eben die Keylänge erhöht werden und ein symetrischen Verfahren zum Einsatz kommen. 
 
 ## Allgemeine Erläuterungen zum Konzept
-Das Konzept beschreibt den Aufbau eines Zugangskontrollmoduls wie es in Web-, Desktop- oder Mobilanwendungen eingesetzt werden kann. Es basiert auf dem in der ct 18/2014 beschriebenen Konzept wie Nutzer ihre Passwörter generieren können. Ich habe hier versucht dieses Konzept auf den Anmeldemechanismus einer Anwendung zu übertragen. 
+Das Konzept beschreibt den Aufbau eines Zugangskontrollmoduls wie es in Web-, Desktop- oder Mobilanwendungen eingesetzt werden kann. Es basiert auf dem in der ct 18/2014 beschriebenen Konzept wie Nutzer ihre Passwörter generieren können. Ich habe hier versucht dieses Konzept auf den Anmeldemechanismus einer Anwendung zu übertragen.
+Teil des Zugangskontrollmoduls sind ein Passwortgenerator und eine Ablagenverwaltung (Ver-/Entschlüsselungsmodul). 
 
 ## Schematische Darstellung des Zugangsmoduls
 ![Schematische Darstellung des Zugangskontrollmoduls als SVG](img/Zugangskontrollmodul.svg "Zugangskontrollmodul (schematisch)")
