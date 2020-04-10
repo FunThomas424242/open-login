@@ -1,5 +1,5 @@
 # open-login
-Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Anwendungen die FIDO2 nicht nutzen können (z.B. Managed Infrastruktur).
+Konzept einer sicheren Zugangsprüfung für Anwendungen - Zielgruppe Anwendungen die FIDO2 nicht nutzen können (z.B. Managed Infrastruktur in Behörden).
 
 ## Ziele des Konzeptes
 * Bequeme Nutzung sicherer Passwörter durch Endnutzer 
